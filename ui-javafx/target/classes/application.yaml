@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: 'Demo exam app'
+  datasource:
+    continue-on-error: true
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./h2db/demoexam
+    username: sa
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true

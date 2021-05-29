@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #43DCFE;" stylesheets="@../css/main_style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="karmanchik.demoexam.uijfx.controller.MainUIController">
+    <top>
+        <ButtonBar buttonMinWidth="100.0" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <buttons>
+                <TextField fx:id="tfSearch" prefHeight="33.0" prefWidth="302.0" promptText="Введите текст для поиска" />
+                <ComboBox fx:id="cbSort" prefWidth="100.0" promptText="Сортировка" />
+                <ComboBox fx:id="cbFilterAgentType" prefWidth="200.0" promptText="Фильтрация" />
+            </buttons>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </ButtonBar>
+    </top>
+    <bottom>
+        <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <buttons>
+                <Button mnemonicParsing="false" text="Button" />
+            </buttons>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </ButtonBar>
+    </bottom>
+    <center>
+        <Pagination fx:id="pgAgents" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

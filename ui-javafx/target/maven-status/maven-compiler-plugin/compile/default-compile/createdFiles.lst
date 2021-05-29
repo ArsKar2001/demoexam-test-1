@@ -1,0 +1,9 @@
+karmanchik\demoexam\uijfx\config\AppConfig.class
+karmanchik\demoexam\uijfx\controller\AbstractUIController.class
+karmanchik\demoexam\uijfx\controller\UIController.class
+karmanchik\demoexam\uijfx\JavaFXApplication$StageReadyEvent.class
+karmanchik\demoexam\uijfx\Main.class
+karmanchik\demoexam\uijfx\controller\MainUIController.class
+karmanchik\demoexam\uijfx\StageRunner.class
+karmanchik\demoexam\uijfx\JavaFXApplication.class
+karmanchik\demoexam\uijfx\NavigateStageService.class
